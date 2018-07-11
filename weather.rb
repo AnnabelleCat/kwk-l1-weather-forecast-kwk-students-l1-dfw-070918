@@ -14,7 +14,6 @@ nyc_weather = {
     
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 def location(weather)
- puts weather[:city]
  weather[:city]
 	
 end
@@ -24,7 +23,13 @@ location(nyc_weather)
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
 
-# 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
+# 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal.
+
+def description(weather)
+  puts weather[:description]
+end
+
+location(nyc_weather)
 
 
 #4. Write a method that takes in the weather hash as an argument. 
