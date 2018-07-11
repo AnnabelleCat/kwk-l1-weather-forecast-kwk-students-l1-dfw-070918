@@ -18,7 +18,6 @@ def location(weather)
 	
 end
 
-location(nyc_weather)
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
@@ -29,7 +28,9 @@ def description(weather)
   weather[:description]
 end
 
-description(nyc_weather)
+def weather_report(weather)
+  "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Fahrenheit."
+end
 
 
 #4. Write a method that takes in the weather hash as an argument. 
