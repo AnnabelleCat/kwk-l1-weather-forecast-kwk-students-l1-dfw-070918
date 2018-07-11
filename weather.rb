@@ -48,6 +48,7 @@ end
 def convert_temp(weather)
   temperature_fahrenheit = weather[:temperature_farenheit].to_i
   temperature_celsius = (temperature_fahrenheit - 32) * (5/9)
+  puts temperature_celsius
 end
 
 convert_temp(nyc_weather)
