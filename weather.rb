@@ -31,7 +31,6 @@ def weather_report(weather)
   "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Farenheit."
 end
 
-weather_report(nyc_weather)
 
 
 #4. Write a method that takes in the weather hash as an argument. 
@@ -39,7 +38,10 @@ weather_report(nyc_weather)
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
 def city_weather_info(weather)
-  weather.each do |city, description, te
+  weather.each do |key, value|
+    "The #{key} is #{value}."
+end
+    
 
 
 # BONUS:  Write a method that takes in the weather hash as an argument and converts the farenheit temperature to celcius. Have the method round your answer to two decimal places. Is there a method we can use to round in Ruby?
