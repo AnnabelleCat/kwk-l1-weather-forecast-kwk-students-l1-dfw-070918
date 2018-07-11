@@ -7,8 +7,8 @@
 # }
 
 nyc_weather = {
-    :city => "New York"
-    :description => "Partly Cloudy"
+    :city => "New York",
+    :description => "Partly Cloudy",
     :temperature_farenheit => 66.3}
     
     
