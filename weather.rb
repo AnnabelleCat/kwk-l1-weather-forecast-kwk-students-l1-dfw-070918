@@ -29,7 +29,7 @@ def description(weather)
 end
 
 def weather_report(weather)
-  "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Fahrenheit."
+  puts "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Fahrenheit."
 end
 
 
