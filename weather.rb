@@ -29,7 +29,7 @@ def description(weather)
   puts weather[:description]
 end
 
-location(nyc_weather)
+description(nyc_weather)
 
 
 #4. Write a method that takes in the weather hash as an argument. 
