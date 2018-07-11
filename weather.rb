@@ -40,6 +40,7 @@ end
 def city_weather_info(weather)
   weather.each do |key, value|
     "The #{key} is #{value}."
+  end
 end
     
 city_weather_info(nyc_weather)
