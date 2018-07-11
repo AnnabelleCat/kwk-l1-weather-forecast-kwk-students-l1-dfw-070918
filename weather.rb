@@ -32,6 +32,8 @@ def weather_report(weather)
   puts "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Fahrenheit."
 end
 
+weather_report(nyc_weather)
+
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
